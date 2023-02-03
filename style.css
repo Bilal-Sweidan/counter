@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(1.jpeg) center/cover fixed no-repeat;
+}
+body div{
+    margin-top: 7%;
+    width: 50%;
+    height: 500px;
+    background-color: bisque;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+    text-transform: uppercase ;
+    background: url(1.jpeg) center/cover fixed no-repeat;
+    border: 3px solid white;
+    box-shadow: 10px 5px 5px 1px;
+}
+body section{ 
+    font-size: 100px;
+    padding: 50px 0px;
+
+}
+#B{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 40px;
+}
+#B:hover{
+    background-color: aqua;
+}
